@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohit R - Resume</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: #f0f2f5;
+        color: #2d3436;
+        line-height: 1.6;
+        padding: 2rem;
+      }
+
+      .container {
+        max-width: 850px;
+        margin: 0 auto;
+        background: white;
+        padding: 3rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #00b894;
+      }
+
+      .header h1 {
+        color: #2d3436;
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+
+      .contact-info {
+        color: #636e72;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      .contact-info a {
+        color: #00b894;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      .contact-info a:hover {
+        color: #00a884;
+      }
+
+      .section {
+        margin-bottom: 2.5rem;
+      }
+
+      .section-title {
+        color: #2d3436;
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #00b894;
+        font-weight: 600;
+      }
+
+      .experience-item {
+        margin-bottom: 2rem;
+      }
+
+      .experience-item h3 {
+        color: #2d3436;
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+
+      .date {
+        color: #636e72;
+        font-style: italic;
+        margin-bottom: 0.8rem;
+      }
+
+      ul {
+        bulb-style-type: none;
+        padding-left: 1.2rem;
+      }
+
+      ul li {
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      ul li::before {
+        content: "•";
+        color: #00b894;
+        font-weight: bold;
+        position: absolute;
+        left: -1.2rem;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .skill {
+        background: #e8f6f3;
+        color: #00b894;
+        padding: 0.6rem 1.2rem;
+        border-radius: 25px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: all 0.3s;
+      }
+
+      .skill:hover {
+        background: #00b894;
+        color: white;
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 1rem;
+        }
+        .container {
+          padding: 1.5rem;
+        }
+        .header h1 {
+          font-size: 2.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Mohit R</h1>
+        <div class="contact-info">
+          <span>Chennai, India</span>
+          <a href="https://www.linkedin.com/in/mohitr04/" target="_blank"
+            >LinkedIn</a
+          >
+          <span>BTech IT Student</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="experience-item">
+          <h3>SSN College of Engineering</h3>
+          <div class="date">2023 - 2027</div>
+          <ul>
+            <li>BTech in Information Technology</li>
+            <li>First Year Student</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="experience-item">
+          <h3>Hospital Management System</h3>
+          <div class="date">2023</div>
+          <ul>
+            <li>
+              Built a comprehensive healthcare management solution using Python,
+              PySide6, and Oracle Database
+            </li>
+            <li>
+              Implemented interactive dashboard, doctor management, patient
+              records, and appointment scheduling
+            </li>
+            <li>
+              Integrated QR-based payment system and email notifications for
+              enhanced user experience
+            </li>
+            <li>
+              Applied Singleton, Command, and MVC design patterns for
+              maintainable code architecture
+            </li>
+            <li>
+              Designed and optimized database schema for efficient healthcare
+              data management
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="experience-item">
+          <h3>NPTEL Software Testing Certification</h3>
+          <div class="date">November 2023</div>
+          <ul>
+            <li>
+              Achieved Elite certification with Top 5% performance among 5340+
+              candidates
+            </li>
+            <li>
+              Scored 72% overall (Online Assignments: 20/25, Proctored Exam:
+              51.75/75)
+            </li>
+            <li>
+              Completed comprehensive 12-week course by IIIT-Bangalore and IIT
+              Madras
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills">
+          <span class="skill">Python</span>
+          <span class="skill">Oracle Database</span>
+          <span class="skill">SQL</span>
+          <span class="skill">PL/SQL</span>
+          <span class="skill">PySide6</span>
+          <span class="skill">Data Structures</span>
+          <span class="skill">Design Patterns</span>
+          <span class="skill">Software Development</span>
+          <span class="skill">Java</span>
+          <span class="skill">Regular Expressions</span>
+          <span class="skill">PyQt Designer</span>
+          <span class="skill">Software Testing</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
